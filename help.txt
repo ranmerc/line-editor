@@ -1,0 +1,81 @@
+Available Commands (Case Sensitive):
+
+p  - display file on screen
+a  - append lines to file
+i  - insert at a particular position
+s  - save all the changes made to file
+u  - update a particular line in file
+n  - create and open new file
+o  - open a existing file
+m  - cut and paste lines
+c  - copy and paste lines
+d  - delete lines
+h  - get list of available commands
+q  - quit line editor prompt
+
+Use "h [command]" for detailed help about that command~
+p - to print file on screen
+
+Variations -
+
+p - print whole file
+p n - print nth line
+p m n - print lines from m to n
+p filename n - read file `filename` and display nth line
+p filename m n - read file `filename` and display lines from m to n~
+a - append lines to file
+
+Variations -
+
+a - append to currently opened file
+a filename - open and append to file `filename`~
+i - insert line in file
+
+Variations -
+
+i - insert at the end of file
+i n - insert at nth position in file~
+s - save the file
+
+Variations -
+
+s - save currently opened file
+s filename - save currently opened file with `filename` with 
+             all changes made~
+u - update particular line in file
+
+Variations -
+
+u n - update the nth line of currently opened file~
+n - create new file
+
+Variations -
+
+n filename - create a new file with name `filename`~
+o - opens already existing file
+
+Variations -
+
+o filename - opens file `filename` if it exists in current
+             directory~
+m - move lines (cut paste)
+
+Variations -
+
+m j k - move line at jth position to kth position
+m i j k - move lines from position i to position j
+            at position k~
+c - copy lines
+
+Variations -
+
+c j k - copy line at jth position to kth position
+m i j k - copy lines from position i to position j
+            at position k~
+d - delete lines 
+
+Variations - 
+
+d m - delete line at mth position
+d m n - delete lines from position m to position n~
+q  - quit line editor prompt~
